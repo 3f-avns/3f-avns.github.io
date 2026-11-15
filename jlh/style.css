@@ -1,29 +1,46 @@
-.headerBox {
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 0px;
-}
-
-.header {
-    background-color: transparent;
-    display: flex;
-    width: 100%;
-    height: 45px;
-    font-size: 30px;
-    justify-content: space-between;
-    border-bottom: #ffffff;
-    border-bottom-width: 10px;
-}
-.headerLinks {
-    display: flex;
-    justify-content: flex-end;
-    text-align: center;
-}
 body {
+    color:black;
     padding: 0px;
     margin: 0px;
     display:flex;
     flex-direction: column;
+}
+.bbox {
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.box {
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    max-width: 600px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 33%;
+}
+.bbox div {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding:5px
+}
+.box * {
+    margin: 5px;
+}
+.box p {
+    text-align: left;
+    text-indent: 50px;
+    margin:5px;
+}
+.box img {
+    height: 200px;
+    width: auto;
 }
 .section {
     display:flex;
@@ -32,6 +49,7 @@ body {
     width: 100%;
 }
 .sectionText {
+    background-color: #3b4c51;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -39,20 +57,27 @@ body {
     font-size: 20px;
     text-align: center;
     width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sectionText p {
+    text-indent: 50px;
+    text-align: left;
 }
 .sectionImage img {
-    height: 100%;
+    height: 426px;
+    width: 1000px;
 }
 .titleImage {
     width: 1080;
     height: 720px;
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNmYyYmM0NTktYzYzMy00NWYxLThiMDEtYjI2MzgxNzlhOWViXkEyXkFqcGc@._V1_QL75_UX494_.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     display:flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     font-size: 50px;
 
 }
@@ -74,5 +99,148 @@ span {
     color:transparent;
 }
 .transition {
-    background-color: white;
+    background-image:linear-gradient(to bottom right, transparent, white);
+    width: 1000px;
+}
+#homepage {
+    background-image: url("/jlh/src/plot18.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#eevalue {
+    background-image: url('/jlh/src/eevalue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cc {
+    background-image: url('/jlh/src/courseconnection.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#plot1 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BZDliODk1YjktOTI2YS00NjMzLWJiZDQtNzc4YThmMjc3NzZmXkEyXkFqcGc@._V1_QL75_UX770_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#plot2 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BYTYzNmViOWEtNWUzNS00MDdjLWJjMmUtOTBkYThiMmU1MTc1XkEyXkFqcGc@._V1_QL75_UX770_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#plot3 {
+    background-image: url("/jlh/src/plot3.png")
+}
+#plot4 {
+    background-image: url("/jlh/src/plot4.png")
+}
+#plot5 {
+    background-image: url("/jlh/src/plot5.png")
+}
+#plot6 {
+    background-image: url("/jlh/src/plot6.png")
+}
+#plot7 {
+    background-image: url("/jlh/src/plot7.png")
+}
+#plot8 {
+    background-image: url("/jlh/src/plot8.png")
+}
+#plot9 {
+    background-image: url("/jlh/src/plot9.png")
+}
+#plot10 {
+    background-image: url("/jlh/src/plot10.png")
+}
+#plot11 {
+    background-image: url("/jlh/src/plot11.png")
+}
+#plot12 {
+    background-image: url("/jlh/src/plot12.png")
+}
+#plot13 {
+    background-image: url("/jlh/src/plot13.png")
+}
+#plot14 {
+    background-image: url("/jlh/src/plot14.png")
+}
+#plot15 {
+    background-image: url("/jlh/src/plot15.png")
+}
+#plot16 {
+    background-image: url("/jlh/src/plot16.png")
+}
+#plot17 {
+    background-image: url("/jlh/src/plot17.png")
+}
+#plot18 {
+    background-image: url("/jlh/src/plot18.png")
+}
+#plot19 {
+    background-image: url("/jlh/src/plot19.png")
+}
+#plot20 {
+    background-image: url("/jlh/src/plot20.png")
+}
+#plot21 {
+    background-image: url("/jlh/src/plot21.png")
+}
+#plot22 {
+    background-image: url("/jlh/src/plot22.png")
+}
+.sectionImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 350px;
+}
+#plot {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BOGU2M2ZhNjgtMDQwZC00MjYyLTliN2YtYmFmOTJmYWU5ZjQ5XkEyXkFqcGc@._V1_QL75_UX717_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:500px;
+}
+.sectionText h1 {
+    font-size: 150px;
+}
+#cast {
+    background-image: url('/jlh/src/castanddirector.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:205px;
+}
+.footer {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color:white;
+}
+.footerBox {
+    width:32%;
+    height: fit-content;
+    font-size:25px;
+    text-align: center;
+    padding:5px;
+}
+ul.navbar {
+    width: 1920px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    position: fixed;
+}
+ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: #111111;
+}
+ul li a.active {
+    background-color: rgba(145, 243, 125, 0.75);
 }
